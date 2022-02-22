@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    display: flex;
+}
+
+.container_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 64px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: #333333;
+}
+
+.link{
+    display: flex;
+    text-decoration: none;
+    color: #f4ba4d;
+    margin: 0px 50px;
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+.menu_header{
+    display: flex;
+    align-items: center;
+    margin: 0px 100px;
+}
