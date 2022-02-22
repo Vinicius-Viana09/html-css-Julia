@@ -45,3 +45,34 @@ header{
     align-items: center;
     margin: 0px 100px;
 }
+
+.container_marcas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.h1_marca{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+    text-transform: uppercase;
+}
+
+.marcas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.img_marca{
+    height: 300px;
+    width: 290px;
+    border-radius: 15px;
+}
+
+.h2_identidade{
+    
+}
