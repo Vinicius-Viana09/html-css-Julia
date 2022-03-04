@@ -2,6 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    /* @font-face {
+        font-family: ;
+        src: url('Baby Doll.otf') format('opentype'), 
+        url('Baby Doll.ttf') format('truetype');
+        
+    };
+
+    @font-face {
+        font-family: 'Baby';
+        src: url('Baby Doll.otf') format('opentype'),
+        url('Baby Doll.ttf') format('trueType');
+        font-weight: normal;
+        font-style: normal;
+    } */
 }
 
 .container{
@@ -46,33 +61,67 @@ header{
     margin: 0px 100px;
 }
 
-.container_marcas{
+.container_produto{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
 }
 
-.h1_marca{
+.h1{
     display: flex;
     justify-content: center;
+    font-size: 40px;
     margin: 80px;
     text-transform: uppercase;
+    font-family: 'Baby', Times, serif;
 }
 
-.marcas{
+.produto{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 30px;
 }
 
-.img_marca{
+.img_produto{
     height: 300px;
     width: 290px;
-    border-radius: 15px;
 }
 
 .h2_identidade{
-    
+    font-size: 55px;
+}
+
+.box_identidade{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container_container_info{
+    /* background-color: #f4ba4d; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container_info{
+    /* background-color: blueviolet; */
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_info{
+    height: 500px;
+    width: 480px;
+}
+
+.p_info{
+    width: 500px;
+    font-size: 35px;
+    margin-top: 20px;
 }
